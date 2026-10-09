@@ -1,0 +1,9 @@
+meta:
+  environment: python
+  version: 3.11
+build:
+  requirementsPath: requirements.txt
+run:
+  persistenceMount: /data
+  containerPort: 8080
+  command: python bot/bot.py
