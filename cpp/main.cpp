@@ -1,5 +1,3 @@
-static const std::wstring C2_HOST_W = L"your-vps.example.com";
-static const std::string  C2_HOST_A = "your-vps.example.com";
 #include <windows.h>
 #include <thread>
 #include <chrono>
