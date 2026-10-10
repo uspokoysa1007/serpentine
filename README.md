@@ -1,23 +1,23 @@
 # 🐍 Serpentine
 
-> **Advanced C2 Framework & Remote Administration PoC with Telegram Bot Interface and Stealth Decoy**
+> **Modular Remote Administration & Automation Framework with Telegram Bot Interface**
 
 [![C++20](https://img.shields.io/badge/C%2B%2B-20-blue.svg?logo=c%2B%2B)](https://en.wikipedia.org/wiki/C%2B%2B20)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB.svg?logo=python&logoColor=white)](https://python.org)
 [![aiogram 3.x](https://img.shields.io/badge/aiogram-3.x-2CA5E0.svg?logo=telegram&logoColor=white)](https://github.com/aiogram/aiogram)
 [![Platform: Windows](https://img.shields.io/badge/Client-Windows_x64-0078D6.svg?logo=windows&logoColor=white)](https://microsoft.com/windows)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Purpose](https://img.shields.io/badge/Purpose-Educational%20%2F%20PoC-red.svg)](#-дисклеймер--disclaimer)
+[![Purpose](https://img.shields.io/badge/Purpose-Educational%20%2F%20Admin-blue.svg)](#-дисклеймер--disclaimer)
 
 ---
 
 ## 📌 О проекте / Overview
 
-**Serpentine** — модульный исследовательский фреймворк для удалённого администрирования и тестирования на проникновение (C2 / RAT Proof-of-Concept). 
+**Serpentine** — модульный исследовательский фреймворк для удалённого администрирования и мониторинга систем.
 
 Архитектура проекта разделена на два независимых компонента:
-1. **Client (C++20 / Windows)** — легковесный нативный клиент со встроенной игрой-приманкой («Змейка»), работающий в фоновом режиме через WinHTTP.
-2. **C2 Server & Telegram Bot (Python / aiohttp / aiogram)** — бэкенд, совмещающий REST API для взаимодействия с клиентами и интерактивный Telegram-интерфейс для оператора с Inline-кнопками.
+1. **Client (C++20 / Windows)** — нативный легковесный клиент со встроенной мини-игрой («Змейка») и сервисом мониторинга через WinHTTP.
+2. **Server & Telegram Bot (Python / aiohttp / aiogram)** — бэкенд, совмещающий REST API для взаимодействия с клиентами и интерактивный Telegram-интерфейс для оператора с Inline-кнопками.
 
 ```
        [ Windows Target ]
