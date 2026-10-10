@@ -81,7 +81,7 @@
 #### Локальный запуск:
 ```bash
 # Клонирование репозитория
-git clone https://github.com/fonyaxd/serpentine.git
+git clone https://github.com/uspokoysa/serpentine.git
 cd serpentine
 
 # Установка зависимостей
